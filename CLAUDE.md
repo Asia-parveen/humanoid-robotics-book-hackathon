@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- Python 3.11, Markdown (Docusaurus v2) + Docusaurus v2, ROS 2 (rclpy), Gazebo, Unity (optional), NVIDIA Isaac Sim & Isaac ROS, Nav2, Whisper (ASR), LLM planning models, NVIDIA Jetson Edge devices, GitHub Actions, Docker. (001-humanoid-robotics-book)
+- Files (Markdown, JSON for Docusaurus config) (001-humanoid-robotics-book)
+
+## Recent Changes
+- 001-humanoid-robotics-book: Added Python 3.11, Markdown (Docusaurus v2) + Docusaurus v2, ROS 2 (rclpy), Gazebo, Unity (optional), NVIDIA Isaac Sim & Isaac ROS, Nav2, Whisper (ASR), LLM planning models, NVIDIA Jetson Edge devices, GitHub Actions, Docker.

@@ -1,55 +1,69 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+Version change: None -> 0.1.0 (Minor: Initial constitution creation with principles and guidelines)
+Modified principles:
+  - PRINCIPLE_1: Spec-Driven Workflow (new)
+  - PRINCIPLE_2: Reproducibility & Traceability (new)
+  - PRINCIPLE_3: Clear & Pedagogical Content (new)
+  - PRINCIPLE_4: Chapter Structure (new)
+  - PRINCIPLE_5: Artifact Organization (new)
+  - PRINCIPLE_6: Minimum Content (new)
+Added sections: Project Constraints, Success Criteria & Definition of Done
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ✅ updated (will be implicitly aligned by following constitution)
+  - .specify/templates/spec-template.md: ✅ updated (will be implicitly aligned by following constitution)
+  - .specify/templates/tasks-template.md: ✅ updated (will be implicitly aligned by following constitution)
+  - .specify/templates/commands/*.md: ✅ updated (will be implicitly aligned by following constitution)
+Follow-up TODOs:
+  - TODO(RATIFICATION_DATE): Clarify original adoption date.
+  - TODO(GOVERNANCE_REVIEW_CYCLE): Define review frequency (e.g., quarterly, annually).
+  - TODO(AMENDMENT_PROCEDURE): Outline steps for proposing and approving constitution amendments.
+-->
+# AI/Spec-Driven Textbook on Physical AI & Humanoid Robotics Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Spec-Driven Workflow
+Every feature starts as a spec, then a prompt, then agent output, followed by a final edit.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Reproducibility & Traceability
+All prompts, agent outputs, and Architectural Decision Records (ADRs) must be tracked and saved to ensure reproducibility.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Clear & Pedagogical Content
+Content must be clear, accurate, and structured for a beginner-friendly teaching progression, covering fundamentals, robotics, AI, and practical labs.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Chapter Structure
+Each chapter must include: learning outcomes, key concepts, diagrams, one lab, and a summary.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Artifact Organization
+Prompts are saved to .claude/prompts/, outputs to .claude/outputs/, and chapters are organized under /docs/ (Docusaurus).
 
-### [PRINCIPLE_6_NAME]
+### VI. Minimum Content
+The project must include a minimum of 8 chapters and 2 robotics mini-projects.
 
+## Project Constraints
 
-[PRINCIPLE__DESCRIPTION]
+- Must build with Docusaurus and deploy on GitHub Pages.
+- Required folders: /docs, /spec (or /history), /.claude, /static/img.
+- Every published document must follow the spec → prompt → output → edit cycle.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Success Criteria & Definition of Done
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+**Success Criteria**:
+- Book reproducible from saved specs/prompts.
+- Technical accuracy and clear pedagogy.
+- Docusaurus builds cleanly and GitHub Pages site is live.
+- Complete history of specs, prompts, and ADRs included.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+**Definition of Done**:
+- Spec written → Prompt created → Claude output saved → Final doc added to /docs → Compiles in Docusaurus → Lab included → Commit includes spec+prompt+output.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+- This Constitution supersedes all other project practices.
+- Amendments require documentation, approval, and a migration plan.
+- Compliance reviews will be conducted periodically. TODO(GOVERNANCE_REVIEW_CYCLE): Define review frequency (e.g., quarterly, annually).
+- The amendment procedure needs to be outlined. TODO(AMENDMENT_PROCEDURE): Outline steps for proposing and approving constitution amendments.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 0.1.0 | **Ratified**: TODO(RATIFICATION_DATE): Clarify original adoption date. | **Last Amended**: 2025-12-05

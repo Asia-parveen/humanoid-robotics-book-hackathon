@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch:*)",
+      "Bash(.specify/scripts/bash/setup-plan.sh:*)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(npm start:*)",
+      "Bash(cp F:/humanoid-robotics-book/sidebars.js F:/humanoid-robotics-book/sidebars.js.bak)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

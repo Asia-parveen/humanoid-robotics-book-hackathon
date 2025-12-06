@@ -85,11 +85,8 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-
-        {to: '/docs/module1-ros2/', label: 'Module 1', position: 'left'},
-        {to: '/docs/module2-digital-twin/', label: 'Module 2', position: 'left'},
-        {to: '/docs/module3-nvidia-isaac/', label: 'Module 3', position: 'left'},
-        {to: '/docs/module4-vla/', label: 'Module 4', position: 'left'},
+     
+        {to: '/docs/module1-ros2/README', label: 'Course', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
       ],
     },

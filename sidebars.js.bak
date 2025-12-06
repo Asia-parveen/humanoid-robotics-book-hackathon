@@ -1,0 +1,21 @@
+/**
+ * @type {import('@docusaurus/plugin-content-docs').SidebarsConfig}
+ */
+const sidebars = {
+  tutorialSidebar: [
+    {
+      type: 'category',
+      label: 'Module 1: ROS 2 Fundamentals',
+      link: {type: 'doc', id: 'module1-ros2/README'},
+      items: [
+        'module1-ros2/chapter1-middleware',
+        'module1-ros2/chapter2-nodes',
+        'module1-ros2/chapter3-topics',
+        'module1-ros2/chapter4-services',
+        'module1-ros2/module1-quiz',
+      ],
+    },
+  ],
+};
+
+module.exports = sidebars;
