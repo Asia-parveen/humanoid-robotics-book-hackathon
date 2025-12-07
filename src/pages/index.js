@@ -192,9 +192,9 @@ export default function Home() {
           </h1>
           <p style={{
             margin: '0 0 36px',
-            fontSize: '1.15rem',
+            fontSize: '1.10rem',
             color: '#374151',
-            maxWidth: '600px',
+            maxWidth: '700px',
             margin: '0 auto 36px',
             lineHeight: 1.6,
             textShadow: '0 1px 2px rgba(255,255,255,0.5)'
