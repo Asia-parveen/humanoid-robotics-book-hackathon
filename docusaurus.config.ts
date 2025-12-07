@@ -91,6 +91,11 @@ const config: Config = {
         {to: '/docs/module3-nvidia-isaac/', label: 'Module 3', position: 'left'},
         {to: '/docs/module4-vla/', label: 'Module 4', position: 'left'},
         {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://github.com/Asia-parveen',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
